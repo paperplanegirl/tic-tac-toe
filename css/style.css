@@ -1,3 +1,36 @@
-h1 {
+body {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 2em;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.grid {
+  height: 100px;
+  width: 100px;
+  background: gold;
+  border: 10px solid white;
+  display: inline-block;
+  vertical-align: top
+}
+
+#messageBody {
+  height: 50px;
+  width: 50px;
+  background: rgb(221, 112, 20)
+}
+
+#status {
+  height: 18px;
+  margin-top: -70px;
+}
+
+
+.purple {
   color: purple;
+}
+
+.blue {
+  color: blue;
 }
